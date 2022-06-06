@@ -23,4 +23,7 @@ b'json-minimal-txpool_add:[{"id":"018d6967da37330630e01797e9884a362dfa2e09e20369
 xmr.support
 b'json-minimal-txpool_add:[{"id":"359e79b18fb74e7b24ed8024b287b9b8d279620012ca4bb1eaaa2b749d83781e","blob_size":3510,"weight":3510,"fee":14100000}]'
 The server has a zmq port open :)
+xmrbandwagon.hopto.org
+b'json-minimal-txpool_add:[{"id":"4276e30be1300639d6ec6479631d1cc853784fdd0b81661002f62aebfc989233","blob_size":1458,"weight":1458,"fee":5860000}]'
+The server has a zmq port open :)
 ```

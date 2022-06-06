@@ -18,6 +18,9 @@ The server has a zmq port open :)
 38.105.209.54
 b'json-minimal-txpool_add:[{"id":"018d6967da37330630e01797e9884a362dfa2e09e203698eeb636aa9d353e2f1","blob_size":1977,"weight":1977,"fee":7940000}]'
 The server has a zmq port open :)
-moneronode1.relaycrun.ch
+moneronode1.relaycrun.ch 
 b'json-minimal-txpool_add:[{"id":"018d6967da37330630e01797e9884a362dfa2e09e203698eeb636aa9d353e2f1","blob_size":1977,"weight":1977,"fee":7940000}]'
+xmr.support
+b'json-minimal-txpool_add:[{"id":"359e79b18fb74e7b24ed8024b287b9b8d279620012ca4bb1eaaa2b749d83781e","blob_size":3510,"weight":3510,"fee":14100000}]'
+The server has a zmq port open :)
 ```

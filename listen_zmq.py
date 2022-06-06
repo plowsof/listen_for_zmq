@@ -1,4 +1,3 @@
-#this leaves threads open while running .-.
 import sys
 import zmq
 import threading
@@ -6,10 +5,10 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import time
-node_list = ["node.community.rino.io","192.168.1.68"]
-
+import pprint
 port = "18083"
 
+the_list = []
 class CountdownTask:
     def __init__(self):
         self._running = True
@@ -19,31 +18,30 @@ class CountdownTask:
           
     def run(self, node):
         while self._running:
-            print(node)
             context = zmq.Context()
             socket = context.socket(zmq.SUB)
             socket.setsockopt_string(zmq.SUBSCRIBE, '')
             socket.setsockopt(zmq.CONFLATE, 1)  # last msg only.
-            socket.connect(f"tcp://{node}:{port}")  # must be placed after above options.
+            socket.connect(f"tcp://{node}:{port}")  # must be placed after above options
             
             while True:
                 data = socket.recv()
                 print(data)
+                print(node)
+                the_list.append(node)
+                context.term()
+                self._running = False
                 break
-            self._running = False
+            
 
 def check_zmq(node):
+    print("CHeck zmq")
     c = CountdownTask()
     t = threading.Thread(target = c.run, args =(node, ))
     t.start()
     # wait 30 seconds for the thread to finish its work
-    t.join(30)
-    if t.is_alive():
-        print("The server did not publish a zmq message after 30 seconds")
-        c.terminate() 
-    else:
-        print("The server has a zmq port open :)")
-        c.terminate()
+    t.join(20)
+    c.terminate()
 
 def check_monero_fail():
     response = requests.get("https://monero.fail/?nettype=mainnet")
@@ -60,10 +58,21 @@ def check_monero_fail():
                     if ":" in hostname:
                         hostname = hostname.split(":")[0]
                     stagenet.append(hostname)
+    ragequit = []
     for node in stagenet:
-        check_zmq(node)
+        #check if port open first
+        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a output.txt")
 
 check_monero_fail()
-os._exit(1)
 
-#node.cryptocano.de
+with open("output.txt", "r") as f:
+    lines = f.readlines()
+
+for line in lines:
+    if "succeeded" in line.strip():
+        hostname = line[14:][:-24].split()[0]
+        print(hostname)
+        check_zmq(hostname)
+
+pprint.pprint(the_list)
+os._exit(1)

@@ -36,3 +36,4 @@ for node in node_list:
         c.terminate() 
     else:
         print("The server has a zmq port open :)")
+        c.terminate()

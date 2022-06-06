@@ -1,6 +1,7 @@
 import sys
 import zmq
 import threading
+import os
 
 node_list = ["node.community.rino.io","192.168.1.68"]
 
@@ -37,3 +38,4 @@ for node in node_list:
     else:
         print("The server has a zmq port open :)")
         c.terminate()
+os._exit(1)

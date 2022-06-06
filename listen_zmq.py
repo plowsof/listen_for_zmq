@@ -1,8 +1,6 @@
 import sys
 import zmq
-import time
 import threading
-import time
 
 node_list = ["node.community.rino.io","192.168.1.68"]
 

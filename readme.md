@@ -3,11 +3,17 @@ ehck if 18083 port is actually open - then confirm zmq traffic on that port
 Script output:
 
 ```
-node.community.rino.io
-The server did not publish a zmq message after 30 seconds
-192.168.1.68
-b'json-minimal-chain_main:{"first_height":2639485,"first_prev_id":"e30ab8cb9b06c4bcdc333debc13764ef316f34f222287c0daf1770ba2030e126","ids":["3c01f32cd3bcf225f9ca253e56121071938c3d0db7f55ab78f8e3478fc0df77c"]}'
-The server has a zmq port open :)
+'p2pmd.xmrvsbeast.com',
+ 'sf.xmr.support',
+ 'bunkernet.ddns.net',
+ 'node.cryptocano.de',
+ '65.52.21.30',
+ 'xmr.support',
+ 'xmrnode.facspro.net',
+ '38.105.209.54',
+ 'xmrbandwagon.hopto.org',
+ 'node.imonero.org',
+ 'node.sethforprivacy.com'
 ```
 
 example of the monero fail scanner:

@@ -26,4 +26,7 @@ The server has a zmq port open :)
 xmrbandwagon.hopto.org
 b'json-minimal-txpool_add:[{"id":"4276e30be1300639d6ec6479631d1cc853784fdd0b81661002f62aebfc989233","blob_size":1458,"weight":1458,"fee":5860000}]'
 The server has a zmq port open :)
+node.sethforprivacy.com
+b'json-minimal-txpool_add:[{"id":"545db5edc38aa1ece967cdd17b4ae701da789323720dab13c2b52b9bc45d4999","blob_size":1456,"weight":1456,"fee":5850000}]'
+The server has a zmq port open :)
 ```

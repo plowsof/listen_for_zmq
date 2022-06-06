@@ -1,3 +1,4 @@
+#this leaves threads open while running .-.
 import sys
 import zmq
 import threading

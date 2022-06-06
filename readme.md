@@ -1,10 +1,4 @@
-### Simple method:
-
-from u/not420guilty
-you can check if the port is open. This command on linux:
-nc -zv <IP_ADDRESS> 18083
-
-Ignore everything here, ^^
+ehck if 18083 port is actually open - then confirm zmq traffic on that port
 
 Script output:
 

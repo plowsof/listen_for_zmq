@@ -37,7 +37,7 @@ def check_zmq(node):
     t = threading.Thread(target = c.run, args =(node, ))
     t.start()
     # wait 30 seconds for the thread to finish its work
-    t.join(5)
+    t.join(30)
     if t.is_alive():
         print("The server did not publish a zmq message after 30 seconds")
         c.terminate() 

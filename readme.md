@@ -1,4 +1,10 @@
-for xmrvsbeast
+### Simple method:
+
+from u/not420guilty
+you can check if the port is open. This command on linux:
+nc -zv <IP_ADDRESS> 18083
+
+Ignore everything here, ^^
 
 Script output:
 

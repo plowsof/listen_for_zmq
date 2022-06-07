@@ -59,7 +59,6 @@ def check_monero_fail():
                     if ":" in hostname:
                         hostname = hostname.split(":")[0]
                     stagenet.append(hostname)
-    ragequit = []
     for node in stagenet:
         #check if port open first
         os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")

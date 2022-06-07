@@ -1,9 +1,10 @@
 name: ZMQ scan
-on:
-  issues: opened
+on: 
+  issues:
+    types: opened
   #schedule:
   #  - cron: "30 * * * *"
-  #workflow_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

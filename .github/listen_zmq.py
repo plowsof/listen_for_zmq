@@ -65,10 +65,9 @@ def check_monero_fail():
         os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
 
 def main(api_key):
-    #if os.path.isfile("zmq_output.tmp"):
-        #os.remove("zmq_output.tmp")
-    #check_monero_fail()
-    print("hello world")
+    if os.path.isfile("zmq_output.tmp"):
+        os.remove("zmq_output.tmp")
+    check_monero_fail()
     with open("zmq_output.tmp", "r") as f:
         lines = f.readlines()
     pprint.pprint(lines)
@@ -78,8 +77,7 @@ def main(api_key):
             hostname = line[14:][:-24].split()[0]
             print(hostname)
             check_zmq(hostname)
-    print("goodbye world")
-    #os.remove("zmq_output.tmp")
+    os.remove("zmq_output.tmp")
     with open("zmq_list.txt", "w+") as f:
         try:
             for node in the_list:
@@ -89,11 +87,8 @@ def main(api_key):
                 f.write(f"{node} | {r['country']} - {r['region']} \n")
         except:
             print("Error?")
-    pprint.pprint(the_list)
 
 if __name__ == "__main__":
    secret = os.environ["API_IPINFO"]
-   print("Hello main")
    main(secret)
-   print("end")
    os._exit(0)

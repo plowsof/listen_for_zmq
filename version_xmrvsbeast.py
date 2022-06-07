@@ -105,7 +105,7 @@ def main(api_key):
             rpc_port = stagenet[node]
             address = socket.gethostbyname(node)
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
-            f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>p2port 18083</td></tr>\n")
+            f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>18083</td></tr>\n")
         f.write("</table>\n")
 
 if __name__ == "__main__":

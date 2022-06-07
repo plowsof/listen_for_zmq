@@ -96,4 +96,4 @@ if __name__ == "__main__":
    print("Hello main")
    main(secret)
    print("end")
-   os._exit(1)
+   os._exit(0)

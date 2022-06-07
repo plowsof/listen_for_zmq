@@ -73,6 +73,7 @@ def main(api_key):
         lines = f.readlines()
 
     for line in lines:
+        print(line)
         if "succeeded" in line.strip():
             hostname = line[14:][:-24].split()[0]
             print(hostname)

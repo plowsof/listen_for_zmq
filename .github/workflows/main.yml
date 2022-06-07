@@ -1,8 +1,8 @@
 name: ZMQ scan
-on:
-  schedule:
+on: issues
+  #schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 * * * *' # every hour
+    #- cron:  '0 * * * *' # every hour
 jobs:
   build:
     runs-on: ubuntu-latest

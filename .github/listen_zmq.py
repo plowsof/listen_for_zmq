@@ -95,3 +95,5 @@ if __name__ == "__main__":
    secret = os.environ["API_IPINFO"]
    print("Hello main")
    main(secret)
+   print("end")
+   os._exit(1)

@@ -1,9 +1,9 @@
 name: ZMQ scan
 on: 
-  issues:
-    types: opened
-  #schedule:
-  #  - cron: "30 * * * *"
+  #issues:
+  #  types: opened
+  schedule:
+    - cron: "30 * * * *"
   workflow_dispatch:
 jobs:
   build:

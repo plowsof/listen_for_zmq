@@ -3,7 +3,7 @@ on:
   issues: opened
   #schedule:
   #  - cron: "30 * * * *"
-  workflow_dispatch:
+  #workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

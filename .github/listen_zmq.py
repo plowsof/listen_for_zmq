@@ -70,9 +70,7 @@ def main(api_key):
     check_monero_fail()
     with open("zmq_output.tmp", "r") as f:
         lines = f.readlines()
-    pprint.pprint(lines)
     for line in lines:
-        print(line)
         if "succeeded" in line.strip():
             hostname = line[14:][:-24].split()[0]
             print(hostname)

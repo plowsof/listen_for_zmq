@@ -83,7 +83,7 @@ def main(api_key):
         for node in the_list:
             address = socket.gethostbyname(node)
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
-            f.write(f"{node} | {r['country']} - {r['region']}")
+            f.write(f"{node} | {r['country']} - {r['region']} \n")
     pprint.pprint(the_list)
 
 if __name__ == "__main__":

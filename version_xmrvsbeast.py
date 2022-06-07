@@ -49,7 +49,6 @@ def check_monero_fail():
     global stagenet
     response = requests.get("https://monero.fail/?nettype=mainnet")
     webpage = response.content
-    stagenet = {}
     soup = BeautifulSoup(webpage, "html.parser")
     for tr in soup.find_all('tr'):
         values = [data for data in tr.find_all('td')]
@@ -108,7 +107,6 @@ def main(api_key):
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
             f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>p2port 18083</td></tr>\n")
         f.write("</table>\n")
-    pprint.pprint(the_list)
 
 if __name__ == "__main__":
    main("hunter2")

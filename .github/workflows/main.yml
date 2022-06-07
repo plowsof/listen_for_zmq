@@ -15,8 +15,10 @@ jobs:
       run: |
         pip install beautifulsoup4 zmq
     - name: Run zmq sniffer
+      env:
+        API_IPINFO: ${{ secrets.API_IPINFO }}
       run: |
-        python3 listen_zmq.py ${{ secrets.API_IPINFO }}
+        python3 listen_zmq.py 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"

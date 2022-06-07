@@ -9,6 +9,7 @@ import pprint
 import socket
 port = "18083"
 
+stagenet = {}
 the_list = []
 class CountdownTask:
     def __init__(self):
@@ -45,45 +46,78 @@ def check_zmq(node):
     c.terminate()
 
 def check_monero_fail():
+    global stagenet
     response = requests.get("https://monero.fail/?nettype=mainnet")
     webpage = response.content
-    stagenet = []
+    stagenet = {}
     soup = BeautifulSoup(webpage, "html.parser")
     for tr in soup.find_all('tr'):
         values = [data for data in tr.find_all('td')]
         for value in values:
-            if "http" in value.text:
-                if "onion" not in value.text:
-                    hostname = str(value.text)
-                    hostname = hostname.split("//")[1]
-                    if ":" in hostname:
-                        hostname = hostname.split(":")[0]
-                    stagenet.append(hostname)
+            if "http" not in value.text:
+                continue
+            if "onion" in value.text:
+                continue
+            hostname = str(value.text)
+            hostname = hostname.split("//")[1]
+            if ":" in hostname:
+                address = hostname.split(":")[0]
+                if len(address.split(".")) > 3:
+                    continue
+                rpc_port = hostname.split(":")[1]
+                stagenet[address] = rpc_port
     for node in stagenet:
         #check if port open first
         os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
 
 def main(api_key):
+    global stagenet
     if os.path.isfile("zmq_output.tmp"):
         os.remove("zmq_output.tmp")
     check_monero_fail()
+
     with open("zmq_output.tmp", "r") as f:
         lines = f.readlines()
+
     for line in lines:
+        '''
+        if "open" in line.strip():
+            hostname = line.split(" [")[0]
+            print(hostname)
+            check_zmq(hostname)
+        '''
         if "succeeded" in line.strip():
             hostname = line[14:][:-24].split()[0]
             print(hostname)
             check_zmq(hostname)
+
     os.remove("zmq_output.tmp")
     with open("zmq_list.txt", "w+") as f:
-        try:
-            for node in the_list:
-                address = socket.gethostbyname(node)
-                print(f"attempting to get: {address}")
-                r = requests.get(f"http://ipinfo.io/{address}?token={api_key}",timeout=5).json()
-                f.write(f"{node} | {r['country']} - {r['region']} \n")
-        except:
-            print("Error?")
+        for node in the_list:
+            rpc_port = stagenet[node]
+            address = socket.gethostbyname(node)
+            r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
+            f.write(f"{node} | {r['country']} - {r['region']} | rpcport {rpc_port} | p2port 18083\n")
+
+    with open("zmq_list.html", "w+") as f:
+        f.write("<table>\n")
+        f.write("<tr><th>Hostname</th><th>Country</th><th>RPCport</th><th>P2Pport</th></tr>\n")
+        for node in the_list:
+            rpc_port = stagenet[node]
+            address = socket.gethostbyname(node)
+            r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
+            f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>18083</td></tr>\n")
+        f.write("</table>\n")
+    
+    with open("zmq_list.md","w+") as f:
+        f.write("Hostname | Country | RPCport | P2Pport\n")
+        f.write("--- | --- | --- | ---\n"
+        for node in the_list:
+            rpc_port = stagenet[node]
+            address = socket.gethostbyname(node)
+            r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
+            f.write(f"{node} | {r['country']} - {r['region']} | {rpc_port} | 18083\n")
+    pprint.pprint(the_list)
 
 if __name__ == "__main__":
    secret = os.environ["API_IPINFO"]

@@ -6,7 +6,10 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import pprint
+import socket
 port = "18083"
+
+ipinfo_key = "hunter2"
 
 the_list = []
 class CountdownTask:
@@ -61,11 +64,13 @@ def check_monero_fail():
     ragequit = []
     for node in stagenet:
         #check if port open first
-        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a output.txt")
+        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
 
 check_monero_fail()
+if os.path.isfile("zmq_output.tmp"):
+    os.remove("zmq_output.tmp")
 
-with open("output.txt", "r") as f:
+with open("zmq_output.tmp", "r") as f:
     lines = f.readlines()
 
 for line in lines:
@@ -74,5 +79,15 @@ for line in lines:
         print(hostname)
         check_zmq(hostname)
 
+os.remove("zmq_list.tmp")
+with open("zmq_list.txt", "w+") as f:
+    for node in the_list:
+        address = socket.gethostbyname(node)
+        r = requests.get(f"http://ipinfo.io/{address}?token={ipinfo_key}").json()
+        f.write(f"{node} | {r['country']} - {r['region']}")
 pprint.pprint(the_list)
 os._exit(1)
+
+
+
+

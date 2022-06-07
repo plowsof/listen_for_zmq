@@ -13,10 +13,10 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Install dependencies
       run: |
-        echo hello
-    - name: Create local changes
+        pip install beautifulsoup4
+    - name: Run zmq sniffer
       run: |
-        echo "hello"
+        python3 listen_zmq.py ${{ secrets.API_IPINFO }}
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -9,8 +9,6 @@ import pprint
 import socket
 port = "18083"
 
-ipinfo_key = "hunter2"
-
 the_list = []
 class CountdownTask:
     def __init__(self):
@@ -66,28 +64,29 @@ def check_monero_fail():
         #check if port open first
         os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
 
-check_monero_fail()
-if os.path.isfile("zmq_output.tmp"):
+def main(api_key):
+    if os.path.isfile("zmq_output.tmp"):
+        os.remove("zmq_output.tmp")
+    check_monero_fail()
+
+    with open("zmq_output.tmp", "r") as f:
+        lines = f.readlines()
+
+    for line in lines:
+        if "succeeded" in line.strip():
+            hostname = line[14:][:-24].split()[0]
+            print(hostname)
+            check_zmq(hostname)
+
     os.remove("zmq_output.tmp")
+    with open("zmq_list.txt", "w+") as f:
+        for node in the_list:
+            address = socket.gethostbyname(node)
+            r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
+            f.write(f"{node} | {r['country']} - {r['region']}")
+    pprint.pprint(the_list)
 
-with open("zmq_output.tmp", "r") as f:
-    lines = f.readlines()
+if __name__ == "__main__":
+   main(sys.argv[1])
 
-for line in lines:
-    if "succeeded" in line.strip():
-        hostname = line[14:][:-24].split()[0]
-        print(hostname)
-        check_zmq(hostname)
-
-os.remove("zmq_list.tmp")
-with open("zmq_list.txt", "w+") as f:
-    for node in the_list:
-        address = socket.gethostbyname(node)
-        r = requests.get(f"http://ipinfo.io/{address}?token={ipinfo_key}").json()
-        f.write(f"{node} | {r['country']} - {r['region']}")
-pprint.pprint(the_list)
 os._exit(1)
-
-
-
-

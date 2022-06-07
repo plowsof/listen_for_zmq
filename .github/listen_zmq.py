@@ -111,7 +111,7 @@ def main(api_key):
     
     with open("zmq_list.md","w+") as f:
         f.write("Hostname | Country | RPCport | P2Pport\n")
-        f.write("--- | --- | --- | ---\n"
+        f.write("--- | --- | --- | ---\n")
         for node in the_list:
             rpc_port = stagenet[node]
             address = socket.gethostbyname(node)

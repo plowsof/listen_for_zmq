@@ -1,5 +1,7 @@
 name: ZMQ scan
-on: issues
+on: 
+  issues:
+    types: opened
   #schedule:
     # * is a special character in YAML so you have to quote this string
     #- cron:  '0 * * * *' # every hour

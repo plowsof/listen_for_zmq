@@ -13,7 +13,7 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Install dependencies
       run: |
-        pip install beautifulsoup4
+        pip install beautifulsoup4 zmq
     - name: Run zmq sniffer
       run: |
         python3 listen_zmq.py ${{ secrets.API_IPINFO }}

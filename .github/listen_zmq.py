@@ -83,7 +83,8 @@ def main(api_key):
         try:
             for node in the_list:
                 address = socket.gethostbyname(node)
-                r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
+                print(f"attempting to get: {address}")
+                r = requests.get(f"http://ipinfo.io/{address}?token={api_key}",timeout=5)).json()
                 f.write(f"{node} | {r['country']} - {r['region']} \n")
         except:
             print("Error?")

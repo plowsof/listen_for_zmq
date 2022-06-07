@@ -1,7 +1,7 @@
 name: ZMQ scan
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "30 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest

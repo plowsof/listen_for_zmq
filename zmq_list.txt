@@ -1,12 +1,11 @@
-38.105.209.54 | US - New York 
-sf.xmr.support | US - California 
-xmr.support | US - California 
-p2pmd.xmrvsbeast.com | DE - Hesse 
-node.sethforprivacy.com | DE - Bavaria 
-xmrnode.facspro.net | US - Nebraska 
-node.imonero.org | JP - Tokyo 
-node2.sethforprivacy.com | DE - Thuringia 
 xmrbandwagon.hopto.org | US - Colorado 
-65.52.21.30 | US - Illinois 
-node.cryptocano.de | DE - North Rhine-Westphalia 
+node.imonero.org | JP - Tokyo 
+xmrnode.facspro.net | US - Nebraska 
 bunkernet.ddns.net | ZA - Western Cape 
+node.sethforprivacy.com | DE - Bavaria 
+38.105.209.54 | US - New York 
+node.cryptocano.de | DE - North Rhine-Westphalia 
+65.52.21.30 | US - Illinois 
+xmr.support | US - California 
+sf.xmr.support | US - California 
+p2pmd.xmrvsbeast.com | DE - Hesse 

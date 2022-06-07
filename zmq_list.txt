@@ -1,11 +1,12 @@
-p2pmd.xmrvsbeast.com | DE - Hesse 
 xmrbandwagon.hopto.org | US - Colorado 
+p2pmd.xmrvsbeast.com | DE - Hesse 
 xmrnode.facspro.net | US - Nebraska 
-sf.xmr.support | US - California 
 node.imonero.org | JP - Tokyo 
-38.105.209.54 | US - New York 
-bunkernet.ddns.net | ZA - Western Cape 
 65.52.21.30 | US - Illinois 
-xmr.support | US - California 
+sf.xmr.support | US - California 
+38.105.209.54 | US - New York 
 node.sethforprivacy.com | DE - Bavaria 
+node2.sethforprivacy.com | DE - Thuringia 
 node.cryptocano.de | DE - North Rhine-Westphalia 
+xmr.support | US - California 
+bunkernet.ddns.net | ZA - Western Cape 

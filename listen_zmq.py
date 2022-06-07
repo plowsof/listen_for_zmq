@@ -87,6 +87,7 @@ def main(api_key):
     pprint.pprint(the_list)
 
 if __name__ == "__main__":
-   main(sys.argv[1])
+   secret = os.environ["API_IPINFO"]
+   main(secret)
 
 os._exit(1)

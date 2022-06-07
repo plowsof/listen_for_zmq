@@ -65,8 +65,8 @@ def check_monero_fail():
         os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
 
 def main(api_key):
-    if os.path.isfile("zmq_output.tmp"):
-        os.remove("zmq_output.tmp")
+    #if os.path.isfile("zmq_output.tmp"):
+        #os.remove("zmq_output.tmp")
     #check_monero_fail()
 
     with open("zmq_output.tmp", "r") as f:

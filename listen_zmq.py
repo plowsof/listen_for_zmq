@@ -67,7 +67,7 @@ def check_monero_fail():
 def main(api_key):
     if os.path.isfile("zmq_output.tmp"):
         os.remove("zmq_output.tmp")
-    check_monero_fail()
+    #check_monero_fail()
 
     with open("zmq_output.tmp", "r") as f:
         lines = f.readlines()
@@ -78,7 +78,7 @@ def main(api_key):
             print(hostname)
             check_zmq(hostname)
 
-    os.remove("zmq_output.tmp")
+    #os.remove("zmq_output.tmp")
     with open("zmq_list.txt", "w+") as f:
         try:
             for node in the_list:

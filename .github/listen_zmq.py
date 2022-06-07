@@ -68,17 +68,17 @@ def main(api_key):
     #if os.path.isfile("zmq_output.tmp"):
         #os.remove("zmq_output.tmp")
     #check_monero_fail()
-
+    print("hello world")
     with open("zmq_output.tmp", "r") as f:
         lines = f.readlines()
-
+    pprint.pprint(lines)
     for line in lines:
         print(line)
         if "succeeded" in line.strip():
             hostname = line[14:][:-24].split()[0]
             print(hostname)
             check_zmq(hostname)
-
+    print("goodbye world")
     #os.remove("zmq_output.tmp")
     with open("zmq_list.txt", "w+") as f:
         try:

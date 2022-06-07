@@ -18,6 +18,7 @@ jobs:
       env:
         API_IPINFO: ${{ secrets.API_IPINFO }}
       run: |
+        ls
         python3 .github/listen_zmq.py 
     - name: Commit files
       run: |

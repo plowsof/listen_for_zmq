@@ -1,0 +1,199 @@
+nc: connect to monero.2255.me port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.2255.me port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.2255.me port 18083 (tcp) failed: Network is unreachable
+nc: connect to monero.2255.me port 18083 (tcp) failed: Network is unreachable
+Connection to p2pmd.xmrvsbeast.com 18083 port [tcp/*] succeeded!
+nc: connect to xmr.devseed.de port 18083 (tcp) failed: Connection refused
+nc: connect to kowalski.fiatfaucet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 135.181.86.201 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 78.47.80.55 port 18083 (tcp) failed: Connection refused
+nc: connect to 176.57.150.20 port 18083 (tcp) failed: Connection refused
+nc: connect to node.xmr.ru port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 68.10.152.84 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to greystroke.synology.me port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.dyni.net port 18083 (tcp) failed: Connection refused
+nc: connect to moneronode.ddns.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to uwillrunanodesoon.moneroworld.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to uwillrunanodesoon.moneroworld.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to uwillrunanodesoon.moneroworld.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to uwillrunanodesoon.moneroworld.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to uwillrunanodesoon.moneroworld.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.ashs.club port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.ashs.club port 18083 (tcp) failed: Network is unreachable
+Connection to xmrnode.facspro.net 18083 port [tcp/*] succeeded!
+nc: connect to node.monerobr.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 144.91.121.7 port 18083 (tcp) failed: Connection refused
+nc: connect to node1.koag.pl port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.lukas.services port 18083 (tcp) failed: Connection refused
+nc: connect to vispeak.ddns.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 125.168.80.60 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.goodbits.dk port 18083 (tcp) failed: Connection refused
+nc: connect to 96.43.139.226 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 168.119.12.182 port 18083 (tcp) failed: Connection refused
+nc: connect to xmr.fail port 18083 (tcp) timed out: Operation now in progress
+nc: connect to ga.clete2.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.fun port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 195.123.239.185 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.moneromerch.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.moneromerch.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 73.142.122.206 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 161.35.118.255 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to dewitte.fiatfaucet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to community.organic-meatballs.duckdns.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 152.228.213.187 port 18083 (tcp) failed: Connection refused
+nc: connect to xmr.lukas.services port 18083 (tcp) failed: Connection refused
+nc: connect to node.degga.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to gf4.pw port 18083 (tcp) timed out: Operation now in progress
+nc: connect to gf4.pw port 18083 (tcp) failed: Network is unreachable
+nc: connect to node.majesticbank.su port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.majesticbank.su port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.majesticbank.su port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.pesso.al port 18083 (tcp) timed out: Operation now in progress
+nc: connect to global.xmrcannon.net port 18083 (tcp) failed: Connection refused
+nc: connect to node.techthis.com.au port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 158.174.82.230 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 5.161.42.112 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.xmr-alias.de port 18083 (tcp) failed: Connection refused
+nc: connect to 161.35.59.213 port 18083 (tcp) failed: No route to host
+nc: connect to xmr-node.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 204.27.62.98 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.sphinxlogic.com port 18083 (tcp) failed: Connection refused
+Connection to sf.xmr.support 18083 port [tcp/*] succeeded!
+nc: connect to electroncash.dk port 18083 (tcp) timed out: Operation now in progress
+nc: connect to electroncash.dk port 18083 (tcp) failed: Network is unreachable
+nc: connect to monero.nolog.network port 18083 (tcp) failed: Connection refused
+nc: connect to 49.12.221.73 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 158.174.82.230 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.supportxmr.ir port 18083 (tcp) failed: Connection refused
+nc: connect to monero.not.futbol port 18083 (tcp) failed: Connection refused
+nc: connect to 165.22.2.129 port 18083 (tcp) failed: No route to host
+Connection to xmrbandwagon.hopto.org 18083 port [tcp/*] succeeded!
+nc: connect to node.supportxmr.com port 18083 (tcp) failed: Connection refused
+nc: connect to node.supportxmr.com port 18083 (tcp) failed: Network is unreachable
+nc: connect to nodes.diowo.moe port 18083 (tcp) timed out: Operation now in progress
+nc: connect to cch-investments.duckdns.org port 18083 (tcp) failed: Connection refused
+nc: connect to conk.xmr.coercive.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to alex.green port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.yming.xyz port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node-uk.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node-uk.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 72.44.65.90 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.hopto.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 161.97.143.31 port 18083 (tcp) failed: Connection refused
+nc: connect to 209.203.84.201 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.c3pool.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 199.46.99.166 port 18083 (tcp) failed: Connection refused
+nc: connect to 45.62.207.10 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 95.111.227.54 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node2.koag.pl port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.servercabin.com port 18083 (tcp) failed: Connection refused
+nc: connect to pinodexmr.hopto.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-de-1.boldsuck.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-de-1.boldsuck.org port 18083 (tcp) failed: Network is unreachable
+nc: connect to node3.koag.pl port 18083 (tcp) timed out: Operation now in progress
+nc: connect to phiz.hopto.org port 18083 (tcp) failed: Connection refused
+Connection to xmr.support 18083 port [tcp/*] succeeded!
+nc: connect to hantaan.fullm00n.de port 18083 (tcp) timed out: Operation now in progress
+nc: connect to synergyanesthesia.synology.me port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 178.22.107.109 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 144.126.135.222 port 18083 (tcp) failed: Connection refused
+nc: connect to owl.lc port 18083 (tcp) timed out: Operation now in progress
+nc: connect to pcchin.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to moneronode1.relaycrun.ch port 18083 (tcp) timed out: Operation now in progress
+nc: connect to de.poiuty.com port 18083 (tcp) failed: Connection refused
+nc: connect to de.poiuty.com port 18083 (tcp) failed: Network is unreachable
+nc: connect to node.bakosi.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 46.32.46.171 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to opennode.xmr-tw.org port 18083 (tcp) timed out: Operation now in progress
+Connection to opennode.xmr-tw.org 18083 port [tcp/*] succeeded!
+nc: connect to xmr.htp.re port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.unknown.place port 18083 (tcp) failed: Connection refused
+nc: connect to xmr-node.buchner.xyz port 18083 (tcp) failed: Connection refused
+nc: connect to node4.koag.pl port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-de-2.boldsuck.org port 18083 (tcp) failed: Connection refused
+nc: connect to xmr-de-2.boldsuck.org port 18083 (tcp) failed: Network is unreachable
+nc: connect to 193.148.16.211 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.cc port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-in-berlin.boldsuck.org port 18083 (tcp) failed: Connection refused
+nc: connect to xmr-in-berlin.boldsuck.org port 18083 (tcp) failed: Network is unreachable
+nc: connect to support.ablative.hosting port 18083 (tcp) failed: Connection refused
+nc: connect to support.ablative.hosting port 18083 (tcp) failed: Network is unreachable
+nc: connect to 157.90.234.17 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 188.34.179.199 port 18083 (tcp) failed: Connection refused
+nc: connect to xmr.k3r.fi port 18083 (tcp) failed: No route to host
+nc: connect to xmr-node-usa-east.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node-usa-east.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 92.63.192.58 port 18083 (tcp) failed: Connection refused
+nc: connect to nodex.monerujo.io port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 209.97.185.45 port 18083 (tcp) failed: No route to host
+nc: connect to xmrnode.ashs.club port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.ashs.club port 18083 (tcp) failed: Network is unreachable
+nc: connect to weenbean.duckdns.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode1.ditatompel.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.monero.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to wormhole.guru port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.majesticbank.is port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.majesticbank.is port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.majesticbank.is port 18083 (tcp) timed out: Operation now in progress
+nc: connect to monero.fyi port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 37.120.189.37 port 18083 (tcp) failed: Connection refused
+nc: connect to 100.14.93.124 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to bonk.xmr.coercive.net port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 76.113.154.181 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 134.209.31.128 port 18083 (tcp) failed: No route to host
+Connection to node.imonero.org 18083 port [tcp/*] succeeded!
+nc: connect to 68.183.233.78 port 18083 (tcp) failed: Connection refused
+nc: connect to node.community.rino.io port 18083 (tcp) timed out: Operation now in progress
+nc: connect to nodes.cryptoben.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 82.202.64.40 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.litepay.ch port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.unknown.place port 18083 (tcp) failed: Connection refused
+Connection to 65.52.21.30 18083 port [tcp/*] succeeded!
+nc: connect to nodes.hashvault.pro port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.hew.cloud port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.hew.cloud port 18083 (tcp) failed: Network is unreachable
+nc: connect to node.monerobr.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 89.58.15.66 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node.agates.io port 18083 (tcp) failed: No route to host
+nc: connect to xmr-node.agates.io port 18083 (tcp) failed: Network is unreachable
+nc: connect to xmr.node.itzmx.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.node.itzmx.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 49.12.239.171 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.scotty86.com port 18083 (tcp) failed: Connection refused
+nc: connect to 66.85.146.141 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 185.34.238.77 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.getmonero.us port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.getmonero.us port 18083 (tcp) timed out: Operation now in progress
+Connection to node.sethforprivacy.com 18083 port [tcp/*] succeeded!
+nc: connect to wolf.woodchuckhunters.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr.hackliberty.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node2.sethforprivacy.com port 18083 (tcp) failed: Connection refused
+nc: connect to node.icefiles.nz port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 149.248.14.121 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node-eu.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmr-node-eu.cakewallet.com port 18083 (tcp) timed out: Operation now in progress
+nc: connect to xmrnode.asdf.software port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 65.108.65.132 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 89.203.249.160 port 18083 (tcp) timed out: Operation now in progress
+Connection to node.cryptocano.de 18083 port [tcp/*] succeeded!
+nc: connect to sniperowl.info port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node1.xmr-tw.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.monerooutreach.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to libertas.hopto.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 139.162.72.128 port 18083 (tcp) failed: No route to host
+Connection to bunkernet.ddns.net 18083 port [tcp/*] succeeded!
+nc: connect to xmr.rurl.eu port 18083 (tcp) failed: Connection refused
+nc: connect to node.monerobr.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.monerod.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.monerod.org port 18083 (tcp) timed out: Operation now in progress
+nc: connect to node.monerod.org port 18083 (tcp) failed: Network is unreachable
+nc: connect to node.monerod.org port 18083 (tcp) failed: Network is unreachable
+Connection to 38.105.209.54 18083 port [tcp/*] succeeded!
+nc: connect to 142.132.164.97 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to anstee.dev port 18083 (tcp) failed: Connection refused
+nc: connect to anstee.dev port 18083 (tcp) failed: Network is unreachable
+nc: connect to node.bluenose.link port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 149.28.86.31 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 104.129.171.121 port 18083 (tcp) timed out: Operation now in progress
+nc: connect to 182.180.109.121 port 18083 (tcp) timed out: Operation now in progress

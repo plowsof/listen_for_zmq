@@ -1,3 +1,8 @@
+name: ZMQ scan
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 * * * *' # every hour
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -6,6 +11,9 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+    - name: Install dependencies
+      run: |
+        echo hello
     - name: Create local changes
       run: |
         echo "hello"

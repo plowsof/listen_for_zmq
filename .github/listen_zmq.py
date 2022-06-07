@@ -93,6 +93,5 @@ def main(api_key):
 
 if __name__ == "__main__":
    secret = os.environ["API_IPINFO"]
+   print("Hello main")
    main(secret)
-
-os._exit(1)

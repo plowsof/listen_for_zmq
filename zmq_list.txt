@@ -1,9 +1,9 @@
-p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081 | p2port 18083
-node.imonero.org | JP - Tokyo | rpcport 18081 | p2port 18083
+xmr.support | US - California | rpcport 18081 | p2port 18083
 bunkernet.ddns.net | ZA - Western Cape | rpcport 18089 | p2port 18083
 xmrnode.facspro.net | US - Nebraska | rpcport 18089 | p2port 18083
 xmrbandwagon.hopto.org | US - Colorado | rpcport 18089 | p2port 18083
-node.sethforprivacy.com | DE - Bavaria | rpcport 18089 | p2port 18083
 sf.xmr.support | US - California | rpcport 18081 | p2port 18083
+node.imonero.org | JP - Tokyo | rpcport 18081 | p2port 18083
+node.sethforprivacy.com | DE - Bavaria | rpcport 18089 | p2port 18083
+p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081 | p2port 18083
 node.cryptocano.de | DE - North Rhine-Westphalia | rpcport 18089 | p2port 18083
-xmr.support | US - California | rpcport 18081 | p2port 18083

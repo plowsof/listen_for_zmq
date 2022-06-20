@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import time
 import pprint
 import socket
-port = "18083"
 
 stagenet = {}
 the_list = []
@@ -18,7 +17,7 @@ class CountdownTask:
     def terminate(self):
         self._running = False
           
-    def run(self, node):
+    def run(self, node, port):
         while self._running:
             context = zmq.Context()
             socket = context.socket(zmq.SUB)
@@ -30,16 +29,17 @@ class CountdownTask:
                 data = socket.recv()
                 print(data)
                 print(node)
+                node = f"{node}_{port}"
                 the_list.append(node)
                 context.term()
                 self._running = False
                 break
             
 
-def check_zmq(node):
+def check_zmq(node, port):
     print("CHeck zmq")
     c = CountdownTask()
-    t = threading.Thread(target = c.run, args =(node, ))
+    t = threading.Thread(target = c.run, args =(node, port, ))
     t.start()
     # wait 30 seconds for the thread to finish its work
     t.join(20)
@@ -67,49 +67,67 @@ def check_monero_fail():
                 stagenet[address] = rpc_port
     for node in stagenet:
         #check if port open first
-        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output.tmp")
+        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output_18083.tmp")
+        os.system(f"nc -zv -w 3 {node} 18084 2>&1 | tee -a zmq_output_18084.tmp")
 
 def main(api_key):
     global stagenet
-    if os.path.isfile("zmq_output.tmp"):
-        os.remove("zmq_output.tmp")
+    if os.path.isfile("zmq_output_18083.tmp"):
+        os.remove("zmq_output_18083.tmp")
+    if os.path.isfile("zmq_output_18084.tmp"):
+        os.remove("zmq_output_18084.tmp")
     check_monero_fail()
 
-    with open("zmq_output.tmp", "r") as f:
-        lines = f.readlines()
-
-    for line in lines:
+    with open("zmq_output_18083.tmp", "r") as f:
+        lines_18083 = f.readlines()
+    with open("zmq_output_18084.tmp", "r") as f:
+        lines_18084 = f.readlines()
+    for line in lines_18083:
+        '''
         if "open" in line.strip():
             hostname = line.split(" [")[0]
             print(hostname)
-            check_zmq(hostname)
+            check_zmq(hostname, "18083")
         '''
         if "succeeded" in line.strip():
             hostname = line[14:][:-24].split()[0]
             print(hostname)
-            check_zmq(hostname)
+            check_zmq(hostname,"18083")
+    for line in lines_18084:
         '''
-
-    os.remove("zmq_output.tmp")
+        if "open" in line.strip():
+            hostname = line.split(" [")[0]
+            print(hostname)
+            check_zmq(hostname, "18084")
+        '''
+        if "succeeded" in line.strip():
+            hostname = line[14:][:-24].split()[0]
+            print(hostname)
+            check_zmq(hostname, "18084")
+    os.remove("zmq_output_18083.tmp")
+    os.remove("zmq_output_18084.tmp")
     with open("zmq_list.txt", "w+") as f:
         for node in the_list:
+            p2port = node.split("_")[1]
+            node = node.split("_")[0]
             rpc_port = stagenet[node]
             address = socket.gethostbyname(node)
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
-            f.write(f"{node} | {r['country']} - {r['region']} | rpcport {rpc_port} | p2port 18083\n")
+            f.write(f"{node} | {r['country']} - {r['region']} | rpcport {rpc_port} | p2port {p2port}\n")
 
     with open("zmq_list.html", "w+") as f:
         f.write("<table>\n")
         f.write("<tr><th>Hostname</th><th>Country</th><th>RPCport</th><th>P2Pport</th></tr>\n")
         for node in the_list:
+            p2port = node.split("_")[1]
+            node = node.split("_")[0]
             rpc_port = stagenet[node]
             address = socket.gethostbyname(node)
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
-            f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>18083</td></tr>\n")
+            f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>{p2port}</td></tr>\n")
         f.write("</table>\n")
 
 if __name__ == "__main__":
    main("hunter2")
 
 os._exit(1)
-

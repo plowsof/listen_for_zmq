@@ -61,7 +61,7 @@ def check_monero_fail():
             hostname = hostname.split("//")[1]
             if ":" in hostname:
                 address = hostname.split(":")[0]
-                if len(address.split(".")) > 3:
+                if isgoodipv4(address):
                     continue
                 rpc_port = hostname.split(":")[1]
                 stagenet[address] = rpc_port
@@ -138,6 +138,12 @@ def main(api_key):
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
             f.write(f"{node} | {r['country']} - {r['region']} | {rpc_port} | {p2port}\n")
     pprint.pprint(the_list)
+
+def isgoodipv4(s):
+    pieces = s.split('.')
+    if len(pieces) != 4: return False
+    try: return all(0<=int(p)<256 for p in pieces)
+    except ValueError: return False
 
 if __name__ == "__main__":
    secret = os.environ["API_IPINFO"]

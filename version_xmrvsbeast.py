@@ -78,7 +78,6 @@ def main(api_key):
         lines_18084 = f.readlines()
 
     for line in lines_18084:
-        '''
         if "open" in line.strip():
             hostname = line.split(" [")[0]
             print(hostname)
@@ -88,6 +87,7 @@ def main(api_key):
             hostname = line[14:][:-24].split()[0]
             print(hostname)
             check_zmq(hostname, "18084")
+        '''
     os.remove("zmq_output_18084.tmp")
     with open("zmq_list.txt", "w+") as f:
         for node in the_list:

@@ -61,39 +61,24 @@ def check_monero_fail():
             hostname = hostname.split("//")[1]
             if ":" in hostname:
                 address = hostname.split(":")[0]
-                if len(address.split(".")) > 3:
+                if isgoodipv4(address):
                     continue
                 rpc_port = hostname.split(":")[1]
                 stagenet[address] = rpc_port
     for node in stagenet:
         #check if port open first
-        os.system(f"nc -zv -w 3 {node} 18083 2>&1 | tee -a zmq_output_18083.tmp")
         os.system(f"nc -zv -w 3 {node} 18084 2>&1 | tee -a zmq_output_18084.tmp")
 
 def main(api_key):
     global stagenet
-    if os.path.isfile("zmq_output_18083.tmp"):
-        os.remove("zmq_output_18083.tmp")
     if os.path.isfile("zmq_output_18084.tmp"):
         os.remove("zmq_output_18084.tmp")
     check_monero_fail()
-
-    with open("zmq_output_18083.tmp", "r") as f:
-        lines_18083 = f.readlines()
     with open("zmq_output_18084.tmp", "r") as f:
         lines_18084 = f.readlines()
-    for line in lines_18083:
-        if "open" in line.strip():
-            hostname = line.split(" [")[0]
-            print(hostname)
-            check_zmq(hostname, "18083")
-        '''
-        if "succeeded" in line.strip():
-            hostname = line[14:][:-24].split()[0]
-            print(hostname)
-            check_zmq(hostname,"18083")
-        '''
+
     for line in lines_18084:
+        '''
         if "open" in line.strip():
             hostname = line.split(" [")[0]
             print(hostname)
@@ -103,8 +88,6 @@ def main(api_key):
             hostname = line[14:][:-24].split()[0]
             print(hostname)
             check_zmq(hostname, "18084")
-        '''
-    os.remove("zmq_output_18083.tmp")
     os.remove("zmq_output_18084.tmp")
     with open("zmq_list.txt", "w+") as f:
         for node in the_list:
@@ -127,7 +110,13 @@ def main(api_key):
             f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>{p2port}</td></tr>\n")
         f.write("</table>\n")
 
+def isgoodipv4(s):
+    pieces = s.split('.')
+    if len(pieces) != 4: return False
+    try: return all(0<=int(p)<256 for p in pieces)
+    except ValueError: return False
+
 if __name__ == "__main__":
-   main("hunter2")
+    main("hunter2")
 
 os._exit(1)

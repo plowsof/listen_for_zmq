@@ -1,19 +1,20 @@
 monero1.heitechsoft.com | CA - Ontario | rpcport 18081 | p2port 18083
-p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081 | p2port 18083
-ga.clete2.com | US - Georgia | rpcport 18089 | p2port 18083
-xmrnode.ashs.club | US - Missouri | rpcport 18081 | p2port 18083
-node2.sethforprivacy.com | DE - Thuringia | rpcport 18089 | p2port 18083
-node.sethforprivacy.com | DE - Bavaria | rpcport 18089 | p2port 18083
-node.cryptocano.de | DE - North Rhine-Westphalia | rpcport 18089 | p2port 18083
 sf.xmr.support | US - California | rpcport 18081 | p2port 18083
-node.imonero.org | JP - Tokyo | rpcport 18081 | p2port 18083
+p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081 | p2port 18083
+xmrnode.ashs.club | US - Missouri | rpcport 18081 | p2port 18083
+ga.clete2.com | US - Georgia | rpcport 18089 | p2port 18083
 xmr.support | US - California | rpcport 18081 | p2port 18083
-xmrnode.facspro.net | US - Nebraska | rpcport 18089 | p2port 18084
-node.techthis.com.au | AU - Queensland | rpcport 18089 | p2port 18084
-de.poiuty.com | DE - Berlin | rpcport 18081 | p2port 18084
-m1.poiuty.com | DE - Saxony | rpcport 18081 | p2port 18084
-bunkernet.ddns.net | ZA - Western Cape | rpcport 18089 | p2port 18084
+node.cryptocano.de | DE - North Rhine-Westphalia | rpcport 18089 | p2port 18083
+node.imonero.org | JP - Tokyo | rpcport 18081 | p2port 18083
+node.sethforprivacy.com | DE - Bavaria | rpcport 18089 | p2port 18083
+node2.sethforprivacy.com | DE - Thuringia | rpcport 18089 | p2port 18083
 monero.jameswillhoite.com | US - Ohio | rpcport 18089 | p2port 18084
-ru.poiuty.com | RU - Kemerovo Oblast | rpcport 18081 | p2port 18084
-fbx.tranbert.com | FR - Normandy | rpcport 18089 | p2port 18084
+node.techthis.com.au | AU - Queensland | rpcport 18089 | p2port 18084
+xmrnode.facspro.net | US - Nebraska | rpcport 18089 | p2port 18084
+xmrbandwagon.hopto.org | US - Colorado | rpcport 18089 | p2port 18084
+m1.poiuty.com | DE - Saxony | rpcport 18081 | p2port 18084
 noise.ddns.net | IT - Sardinia | rpcport 18081 | p2port 18084
+bunkernet.ddns.net | ZA - Western Cape | rpcport 18089 | p2port 18084
+fbx.tranbert.com | FR - Normandy | rpcport 18089 | p2port 18084
+de.poiuty.com | DE - Berlin | rpcport 18081 | p2port 18084
+ru.poiuty.com | RU - Kemerovo Oblast | rpcport 18081 | p2port 18084

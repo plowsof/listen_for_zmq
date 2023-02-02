@@ -1,32 +1,27 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-opennode.xmr-tw.org | SG - Singapore | 18089 | 18083
-xmr.aa78i2efsewr0neeknk.xyz | DE - Bavaria | 18089 | 18083
+monero2.10z.com.ar | BR - Bahia | 18089 | 18083
 p2pmd.xmrvsbeast.com | DE - Hesse | 18081 | 18083
-monero2.10z.com.ar | BR - São Paulo | 18089 | 18083
 node-01-xmr.godevs.cloud | SG - Singapore | 18089 | 18083
 monero.homeqloud.com | GR - East Macedonia and Thrace | 18089 | 18083
-node-02-xmr.godevs.cloud | SG - Singapore | 18089 | 18083
+xmr.aa78i2efsewr0neeknk.xyz | DE - Bavaria | 18089 | 18083
 home.allantaylor.kiwi | NZ - Canterbury | 18089 | 18083
-monero1.heitechsoft.com | CA - Ontario | 18081 | 18084
-xmr-node-eu.cakewallet.com | US - New Jersey | 18081 | 18084
-moneronode.ddns.net | US - Pennsylvania | 18089 | 18084
-node.monerodevs.org | CA - Quebec | 18089 | 18084
-node2.monerodevs.org | FR - Hauts-de-France | 18089 | 18084
-xmrnode.facspro.net | US - Nebraska | 18089 | 18084
-radishfields.hopto.org | US - Colorado | 18081 | 18084
-node.richfowler.net | US - Pennsylvania | 18089 | 18084
-xmr-node.cakewallet.com | US - New Jersey | 18081 | 18084
+opennode.xmr-tw.org | DE - Bavaria | 18089 | 18083
+node-02-xmr.godevs.cloud | SG - Singapore | 18089 | 18083
 escom.sadovo.com | BG - Plovdiv | 18089 | 18084
-opennode.xmr-tw.org | DE - Lower Saxony | 18089 | 18084
-monero2.10z.com.ar | BR - São Paulo | 18089 | 18084
-de.poiuty.com | DE - Bavaria | 18081 | 18084
-xmrbandwagon.hopto.org | US - Colorado | 18081 | 18084
+monero1.heitechsoft.com | CA - Ontario | 18081 | 18084
+xmrnode.facspro.net | US - Nebraska | 18089 | 18084
 p2pool.uk | GB - England | 18089 | 18084
-monero.10z.com.ar | AR - Buenos Aires F.D. | 18089 | 18084
-xmr-node-usa-east.cakewallet.com | US - New Jersey | 18081 | 18084
-xmr.spotlightsound.com | US - Kansas | 18081 | 18084
-p2pmd.xmrvsbeast.com | DE - Hesse | 18081 | 18084
-xmr-node-uk.cakewallet.com | US - New Jersey | 18081 | 18084
-m1.poiuty.com | DE - Bavaria | 18081 | 18084
 ru.poiuty.com | RU - Kuzbass | 18081 | 18084
+monero2.10z.com.ar | BR - Bahia | 18089 | 18084
+xmrbandwagon.hopto.org | US - Colorado | 18081 | 18084
+xmr.spotlightsound.com | US - Kansas | 18081 | 18084
+radishfields.hopto.org | US - Colorado | 18081 | 18084
+node.monerodevs.org | CA - Quebec | 18089 | 18084
+de.poiuty.com | DE - Bavaria | 18081 | 18084
+moneronode.ddns.net | US - Pennsylvania | 18089 | 18084
+p2pmd.xmrvsbeast.com | DE - Hesse | 18081 | 18084
+node2.monerodevs.org | FR - Hauts-de-France | 18089 | 18084
+m1.poiuty.com | DE - Bavaria | 18081 | 18084
+node.richfowler.net | US - Pennsylvania | 18089 | 18084
+monero.10z.com.ar | AR - Buenos Aires F.D. | 18089 | 18084

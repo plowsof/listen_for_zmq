@@ -4,51 +4,53 @@ xmr.support | US - California | 18081
  | 18083
 node.cryptocano.de | DE - Lower Saxony | 18089
  | 18083
+home.allantaylor.kiwi | NZ - Canterbury | 18089
+ | 18083
 monero2.10z.com.ar | AR - Santa Fe | 18089
+ | 18083
+sf.xmr.support | US - California | 18081
  | 18083
 oracle.netrix.cc | CH - Zurich | 18089
  | 18083
 p2pmd.xmrvsbeast.com | DE - Hesse | 18081
  | 18083
-home.allantaylor.kiwi | NZ - Canterbury | 18089
- | 18083
-sf.xmr.support | US - California | 18081
- | 18083
-xmrnode.facspro.net | US - Nebraska | 18089
+xmr.foxpro.su | NL - North Holland | 18081
  | 18084
-moneronode.ddns.net | US - Pennsylvania | 18089
- | 18084
-xmr.opensrc.one | NO - Vestfold og Telemark | 18081
+monero1.heitechsoft.com | CA - Ontario | 18081
  | 18084
 monero.10z.com.ar | AR - Buenos Aires F.D. | 18089
  | 18084
 p2pool.uk | GB - England | 18089
  | 18084
-node.monerodevs.org | CA - Quebec | 18089
+xmr.spotlightsound.com | US - Kansas | 18081
+ | 18084
+de.poiuty.com | DE - Berlin | 18081
  | 18084
 node2.monerodevs.org | FR - Hauts-de-France | 18089
  | 18084
 node.yeetin.me | FI - Uusimaa | 18081
  | 18084
-monero1.heitechsoft.com | CA - Ontario | 18081
+m1.poiuty.com | DE - Berlin | 18081
  | 18084
-xmr.foxpro.su | NL - North Holland | 18081
- | 18084
-node.richfowler.net | US - Pennsylvania | 18089
+xmr.opensrc.one | NO - Vestfold og Telemark | 18081
  | 18084
 monero2.10z.com.ar | AR - Santa Fe | 18089
  | 18084
+node.monerodevs.org | CA - Quebec | 18089
+ | 18084
+moneronode.ddns.net | US - Pennsylvania | 18089
+ | 18084
 xmrbandwagon.hopto.org | US - Colorado | 18081
  | 18084
-xmr.spotlightsound.com | US - Kansas | 18081
+xmrnode.facspro.net | US - Nebraska | 18089
  | 18084
-m1.poiuty.com | DE - Berlin | 18081
+node.richfowler.net | US - Pennsylvania | 18089
  | 18084
-de.poiuty.com | DE - Berlin | 18081
+bunkernet.ddns.net | ZA - Western Cape | 18089
  | 18084
 uwillrunanodesoon.moneroworld.com | CA - Quebec | 18089
  | 18084
-bunkernet.ddns.net | ZA - Western Cape | 18089
+node.moneroworld.com | SG - Singapore | 18089
  | 18084
 ru.poiuty.com | RU - Kuzbass | 18081
  | 18084

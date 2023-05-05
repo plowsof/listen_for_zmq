@@ -91,10 +91,10 @@ def main(api_key):
     os.remove("zmq_output_18084.tmp")
     with open("zmq_list.txt", "w+") as f:
         for node in the_list:
-            p2port = node.split("_")[1]
-            node = node.split("_")[0]
-            rpc_port = stagenet[node]
-            address = socket.gethostbyname(node)
+            p2port = node.split("_")[1].rsplit()
+            node = node.split("_")[0].rsplit()
+            rpc_port = stagenet[node].rsplit()
+            address = socket.gethostbyname(node).rsplit()
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
             f.write(f"{node} | {r['country']} - {r['region']} | rpcport {rpc_port} | p2port {p2port}\n")
 
@@ -102,10 +102,10 @@ def main(api_key):
         f.write("<table>\n")
         f.write("<tr><th>Hostname</th><th>Country</th><th>RPCport</th><th>P2Pport</th></tr>\n")
         for node in the_list:
-            p2port = node.split("_")[1]
-            node = node.split("_")[0]
-            rpc_port = stagenet[node]
-            address = socket.gethostbyname(node)
+            p2port = node.split("_")[1].rsplit()
+            node = node.split("_")[0].rsplit()
+            rpc_port = stagenet[node].rsplit()
+            address = socket.gethostbyname(node).rsplit()
             r = requests.get(f"http://ipinfo.io/{address}?token={api_key}").json()
             f.write(f"<tr><td>{node}</td><td>{r['country']} - {r['region']}</td><td>{rpc_port}</td><td>{p2port}</td></tr>\n")
         f.write("</table>\n")

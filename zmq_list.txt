@@ -1,62 +1,62 @@
-node.cryptocano.de | DE - Lower Saxony | rpcport 18089
+p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081
  | p2port 18083
-monero2.10z.com.ar | AR - Santa Fe | rpcport 18089
+node.cryptocano.de | DE - Lower Saxony | rpcport 18089
  | p2port 18083
 xmr.support | US - California | rpcport 18081
  | p2port 18083
-oracle.netrix.cc | CH - Zurich | rpcport 18089
- | p2port 18083
 node.sethforprivacy.com | US - New York | rpcport 18089
+ | p2port 18083
+oracle.netrix.cc | CH - Zurich | rpcport 18089
  | p2port 18083
 home.allantaylor.kiwi | NZ - Canterbury | rpcport 18089
  | p2port 18083
-p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081
- | p2port 18083
 sf.xmr.support | US - California | rpcport 18081
  | p2port 18083
+monero2.10z.com.ar | AR - Santa Fe | rpcport 18089
+ | p2port 18083
+xmr.opensrc.one | NO - Vestfold og Telemark | rpcport 18081
+ | p2port 18084
+xmrbandwagon.hopto.org | US - Colorado | rpcport 18081
+ | p2port 18084
+p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081
+ | p2port 18084
+node.moneroworld.com | FR - Hauts-de-France | rpcport 18089
+ | p2port 18084
+moneronode.ddns.net | US - Pennsylvania | rpcport 18089
+ | p2port 18084
+monero1.heitechsoft.com | CA - Ontario | rpcport 18081
+ | p2port 18084
+node.richfowler.net | US - Pennsylvania | rpcport 18089
+ | p2port 18084
+m1.poiuty.com | DE - Berlin | rpcport 18081
+ | p2port 18084
+xmr.theuplink.net | US - New York | rpcport 18081
+ | p2port 18084
+xmrnode.facspro.net | US - Nebraska | rpcport 18089
+ | p2port 18084
+xmr.spotlightsound.com | US - Kansas | rpcport 18081
+ | p2port 18084
+node.monerodevs.org | CA - Quebec | rpcport 18089
+ | p2port 18084
+de.poiuty.com | DE - Berlin | rpcport 18081
+ | p2port 18084
+monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
+ | p2port 18084
+ru.poiuty.com | RU - Kuzbass | rpcport 18081
+ | p2port 18084
+xmr.foxpro.su | SE - Stockholm | rpcport 18081
+ | p2port 18084
+fbx.tranbert.com | FR - Île-de-France | rpcport 18089
+ | p2port 18084
+node2.monerodevs.org | FR - Hauts-de-France | rpcport 18089
+ | p2port 18084
+node.yeetin.me | FI - Uusimaa | rpcport 18081
+ | p2port 18084
 p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
 monero2.10z.com.ar | AR - Santa Fe | rpcport 18089
  | p2port 18084
-fbx.tranbert.com | FR - Île-de-France | rpcport 18089
- | p2port 18084
-xmr.theuplink.net | US - New York | rpcport 18081
- | p2port 18084
-xmr.spotlightsound.com | US - Kansas | rpcport 18081
- | p2port 18084
-xmrnode.facspro.net | US - Nebraska | rpcport 18089
- | p2port 18084
-ru.poiuty.com | RU - Kuzbass | rpcport 18081
- | p2port 18084
-uwillrunanodesoon.moneroworld.com | FR - Hauts-de-France | rpcport 18089
- | p2port 18084
-node.monerodevs.org | CA - Quebec | rpcport 18089
- | p2port 18084
-node.yeetin.me | FI - Uusimaa | rpcport 18081
- | p2port 18084
-xmrbandwagon.hopto.org | US - Colorado | rpcport 18081
- | p2port 18084
-xmr.foxpro.su | SE - Stockholm | rpcport 18081
- | p2port 18084
-node.richfowler.net | US - Pennsylvania | rpcport 18089
- | p2port 18084
-de.poiuty.com | DE - Berlin | rpcport 18081
- | p2port 18084
-xmr.opensrc.one | NO - Vestfold og Telemark | rpcport 18081
- | p2port 18084
-monero1.heitechsoft.com | CA - Ontario | rpcport 18081
- | p2port 18084
-moneronode.ddns.net | US - Pennsylvania | rpcport 18089
- | p2port 18084
-m1.poiuty.com | DE - Berlin | rpcport 18081
+uwillrunanodesoon.moneroworld.com | US - Missouri | rpcport 18089
  | p2port 18084
 bunkernet.ddns.net | ZA - Western Cape | rpcport 18089
- | p2port 18084
-node2.monerodevs.org | FR - Hauts-de-France | rpcport 18089
- | p2port 18084
-node.moneroworld.com | US - Missouri | rpcport 18089
- | p2port 18084
-p2pmd.xmrvsbeast.com | DE - Hesse | rpcport 18081
- | p2port 18084
-monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
  | p2port 18084

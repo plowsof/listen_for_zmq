@@ -1,52 +1,54 @@
-allyourbankarebelongtous.org | FI - Uusimaa | rpcport 18089
- | p2port 18083
-xmr.support | US - Washington | rpcport 18081
- | p2port 18083
-monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
- | p2port 18083
 node.chaoswg.dev | DE - Berlin | rpcport 443
- | p2port 18083
-edge7.servebeer.com | IT - Lombardy | rpcport 18089
- | p2port 18083
-hantaan.fullm00n.de | DE - North Rhine-Westphalia | rpcport 18089
  | p2port 18083
 p2pmd.xmrvsbeast.com | DE - Bavaria | rpcport 18081
  | p2port 18083
+hantaan.fullm00n.de | DE - North Rhine-Westphalia | rpcport 18089
+ | p2port 18083
 allyourbankarebelongtous.org | FI - Uusimaa | rpcport 18089
- | p2port 18084
-compking.ddns.net | CA - Alberta | rpcport 18089
- | p2port 18084
-xmr.grub.net | CA - Ontario | rpcport 18089
- | p2port 18084
-node2.monerodevs.org | FR - Hauts-de-France | rpcport 18089
- | p2port 18084
-uwillrunanodesoon.moneroworld.com | CA - Quebec | rpcport 18089
- | p2port 18084
+ | p2port 18083
 monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
+ | p2port 18083
+edge7.servebeer.com | IT - Lombardy | rpcport 18089
+ | p2port 18083
+xmr.support | US - Washington | rpcport 18081
+ | p2port 18083
+xmr.grub.net | CA - Ontario | rpcport 18089
  | p2port 18084
 xmr-pruned.p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
 xmrbandwagon.hopto.org | US - Colorado | rpcport 18081
  | p2port 18084
-p2pool.uk | GB - England | rpcport 18089
- | p2port 18084
 moneropay.techthis.online | AU - Queensland | rpcport 18089
- | p2port 18084
-node3.monerodevs.org | DE - Saxony | rpcport 18089
- | p2port 18084
-xmr-full.p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
 monero.homelinux.org | DE - Saxony | rpcport 18081
  | p2port 18084
-newman.lol | US - California | rpcport 18089
- | p2port 18084
 moneronode.xyz | US - Oregon | rpcport 18089
  | p2port 18084
-node.cryptocano.de | DE - Bavaria | rpcport 18089
+uwillrunanodesoon.moneroworld.com | SG - Singapore | rpcport 18089
  | p2port 18084
-node.richfowler.net | US - Virginia | rpcport 18089
+node2.monerodevs.org | FR - Hauts-de-France | rpcport 18089
+ | p2port 18084
+newman.lol | US - California | rpcport 18089
+ | p2port 18084
+xmr-full.p2pool.uk | GB - England | rpcport 18089
+ | p2port 18084
+p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
 p2pmd.xmrvsbeast.com | DE - Bavaria | rpcport 18081
  | p2port 18084
+opennode.xmr-tw.org | US - New Jersey | rpcport 18089
+ | p2port 18084
+compking.ddns.net | CA - Alberta | rpcport 18089
+ | p2port 18084
 node.monerodevs.org | CA - Quebec | rpcport 18089
+ | p2port 18084
+node.richfowler.net | US - Virginia | rpcport 18089
+ | p2port 18084
+allyourbankarebelongtous.org | FI - Uusimaa | rpcport 18089
+ | p2port 18084
+node.cryptocano.de | DE - Bavaria | rpcport 18089
+ | p2port 18084
+node3.monerodevs.org | DE - Saxony | rpcport 18089
+ | p2port 18084
+monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
  | p2port 18084

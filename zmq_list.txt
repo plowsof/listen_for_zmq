@@ -1,36 +1,30 @@
-itzzen.net | US - Connecticut | rpcport 18089
- | p2port 18083
-node.moneroku.uk | SG - Singapore | rpcport 18081
- | p2port 18083
-xmr1.doggett.tech | CA - Quebec | rpcport 18089
- | p2port 18083
-p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
- | p2port 18083
-edge7.servebeer.com | IT - Lombardy | rpcport 18089
- | p2port 18083
-hantaan.fullm00n.de | DE - Bavaria | rpcport 18089
- | p2port 18083
 xmr.monopolymoney.eu | SE - Gävleborg | rpcport 18089
- | p2port 18083
-mail.daline.com.cn | CN - Shanghai | rpcport 18081
  | p2port 18083
 xmr.support | US - Washington | rpcport 18081
  | p2port 18083
-opennode.xmr-tw.org | DE - Saxony | rpcport 18089
+node.forcaworks.net | ES - Madrid | rpcport 18081
+ | p2port 18083
+mail.daline.com.cn | CN - Shanghai | rpcport 18081
+ | p2port 18083
+monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
+ | p2port 18083
+xmr1.doggett.tech | CA - Quebec | rpcport 18089
+ | p2port 18083
+itzzen.net | US - Connecticut | rpcport 18089
+ | p2port 18083
+edge7.servebeer.com | IT - Lombardy | rpcport 18089
+ | p2port 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
+ | p2port 18083
+hantaan.fullm00n.de | DE - Hesse | rpcport 18089
+ | p2port 18083
+opennode.xmr-tw.org | CA - Quebec | rpcport 18089
+ | p2port 18084
+node3.monerodevs.org | DE - Saxony | rpcport 18089
  | p2port 18084
 node.monerodevs.org | CA - Quebec | rpcport 18089
  | p2port 18084
-p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
- | p2port 18084
-xmr-pruned.p2pool.uk | GB - England | rpcport 18089
- | p2port 18084
-xmr.why.tf | SK - Bratislava Region | rpcport 18081
- | p2port 18084
-kuroda-cryptography-pioneerings.ddns.me | EE - Harjumaa | rpcport 18081
- | p2port 18084
-monero.homelinux.org | DE - Saxony | rpcport 18081
- | p2port 18084
-node.richfowler.net | US - Virginia | rpcport 18089
+node1-eu.monero.love | FI - Uusimaa | rpcport 18089
  | p2port 18084
 node2.monerodevs.org | FR - Hauts-de-France | rpcport 18089
  | p2port 18084
@@ -38,11 +32,17 @@ xmr-full.p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
 monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
  | p2port 18084
+xmr-pruned.p2pool.uk | GB - England | rpcport 18089
+ | p2port 18084
+node.richfowler.net | US - Virginia | rpcport 18089
+ | p2port 18084
+xmr.why.tf | SK - Bratislava Region | rpcport 18081
+ | p2port 18084
+kuroda-cryptography-pioneerings.ddns.me | EE - Harjumaa | rpcport 18081
+ | p2port 18084
 p2pool.uk | GB - England | rpcport 18089
  | p2port 18084
-xmrbandwagon.hopto.org | US - Colorado | rpcport 18081
+p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
  | p2port 18084
-node3.monerodevs.org | DE - Saxony | rpcport 18089
- | p2port 18084
-node1-eu.monero.love | FI - Uusimaa | rpcport 18089
+monero.homelinux.org | DE - Saxony | rpcport 18081
  | p2port 18084

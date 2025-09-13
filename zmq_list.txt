@@ -1,0 +1,2 @@
+xmr-full.p2pool.uk | GB - England | rpcport 18089
+ | p2port 18084

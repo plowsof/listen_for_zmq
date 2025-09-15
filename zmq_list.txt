@@ -1,0 +1,6 @@
+itzzen.net | US - New York | rpcport 18089
+ | p2port 18083
+mail.daline.com.cn | CN - Hubei | rpcport 18081
+ | p2port 18083
+xmr.why.tf | SK - Banská Bystrica Region | rpcport 18081
+ | p2port 18084

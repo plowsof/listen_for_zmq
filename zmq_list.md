@@ -1,4 +1,4 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-node2.monerodevs.org | FR - Hauts-de-France | 18089
- | 18084
+xmr.support | US - Washington | 18081
+ | 18083

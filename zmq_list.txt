@@ -1,2 +1,8 @@
-xmr.support | US - Washington | rpcport 18081
+xmr.firewall-gateway.de | DE - Lower Saxony | rpcport 18081
  | p2port 18083
+nthpyro.dev | AT - Vienna | rpcport 18089
+ | p2port 18083
+xmr.why.tf | SK - Košice Region | rpcport 18081
+ | p2port 18084
+p2pool.uk | GB - England | rpcport 18089
+ | p2port 18084

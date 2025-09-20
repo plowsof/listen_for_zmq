@@ -1,2 +1,6 @@
-xmr.monopolymoney.eu | SE - Gävleborg | rpcport 18089
+nthpyro.dev | AT - Vienna | rpcport 18089
  | p2port 18083
+xmr-full.p2pool.uk | GB - England | rpcport 18089
+ | p2port 18084
+node3.monerodevs.org | DE - Saxony | rpcport 18089
+ | p2port 18084

@@ -1,0 +1,4 @@
+nthpyro.dev | AT - Vienna | rpcport 18089
+ | p2port 18083
+xmr.monopolymoney.eu | SE - Gävleborg | rpcport 18089
+ | p2port 18083

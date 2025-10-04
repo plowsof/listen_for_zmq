@@ -1,6 +1,8 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-mail.daline.com.cn | CN - Hubei | 18081
+xmr.monopolymoney.eu | SE - Gävleborg | 18089
  | 18083
-node.monerodevs.org | CA - Quebec | 18089
+monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | 18089
+ | 18083
+monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | 18089
  | 18084

@@ -1,4 +1,6 @@
-mail.daline.com.cn | CN - Hubei | rpcport 18081
+xmr.monopolymoney.eu | SE - Gävleborg | rpcport 18089
  | p2port 18083
-node.monerodevs.org | CA - Quebec | rpcport 18089
+monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | rpcport 18089
+ | p2port 18083
+monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | rpcport 18089
  | p2port 18084

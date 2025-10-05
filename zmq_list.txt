@@ -1,6 +1,10 @@
+nthpyro.dev | AT - Vienna | rpcport 18089
+ | p2port 18083
+monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
+ | p2port 18083
 xmr.monopolymoney.eu | SE - Gävleborg | rpcport 18089
  | p2port 18083
-monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | rpcport 18089
- | p2port 18083
-monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | rpcport 18089
+node.monerodevs.org | CA - Quebec | rpcport 18089
+ | p2port 18084
+monero.10z.com.ar | AR - Buenos Aires | rpcport 18089
  | p2port 18084

@@ -1,10 +1,12 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | 18089
+itzzen.net | US - New York | 18089
  | 18083
-node3.monerodevs.org | DE - Saxony | 18089
+xmr5.doggett.tech | US - Virginia | 18089
+ | 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
+ | 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
  | 18084
-monero-rpc.cheems.de.box.skhron.com.ua | DE - Saxony | 18089
- | 18084
-xmrbandwagon.hopto.org | US - Colorado | 18081
+whytheyfight.com | US - Colorado | 18089
  | 18084

@@ -1,0 +1,2 @@
+hantaan.fullm00n.de | FR - Grand Est | rpcport 18089
+ | p2port 18083

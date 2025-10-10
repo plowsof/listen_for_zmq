@@ -1,2 +1,4 @@
-hantaan.fullm00n.de | FR - Grand Est | rpcport 18089
+xmr.support | US - Washington | rpcport 18081
+ | p2port 18083
+xmr.firewall-gateway.de | DE - Hamburg | rpcport 18081
  | p2port 18083

@@ -1,4 +1,6 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-hantaan.fullm00n.de | FR - Grand Est | 18089
+xmr.support | US - Washington | 18081
+ | 18083
+xmr.firewall-gateway.de | DE - Hamburg | 18081
  | 18083

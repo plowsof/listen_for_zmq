@@ -1,2 +1,2 @@
-p2pool.uk | GB - England | rpcport 18089
- | p2port 18084
+xmr5.doggett.tech | US - Virginia | rpcport 18089
+ | p2port 18083

@@ -1,8 +1,10 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-xmr5.doggett.tech | US - Virginia | 18089
+xmr.monopolymoney.eu | SE - Gävleborg | 18089
  | 18083
-node3.monerodevs.org | DE - Saxony | 18089
+monero.homelinux.org | DE - Saxony | 18081
  | 18084
-p2pool.uk | GB - England | 18089
+node2.monerodevs.org | FR - Hauts-de-France | 18089
+ | 18084
+node3.monerodevs.org | DE - Saxony | 18089
  | 18084

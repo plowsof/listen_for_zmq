@@ -1,2 +1,4 @@
-node3.monerodevs.org | DE - Saxony | rpcport 18089
+p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
+ | p2port 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
  | p2port 18084

@@ -1,4 +1,6 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-node3.monerodevs.org | DE - Saxony | 18089
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
+ | 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
  | 18084

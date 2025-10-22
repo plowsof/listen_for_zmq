@@ -1,4 +1,6 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-p2pool.uk | GB - England | 18089
+node3.monerodevs.org | DE - Saxony | 18089
+ | 18084
+node.monerodevs.org | CA - Quebec | 18089
  | 18084

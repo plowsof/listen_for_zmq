@@ -1,4 +1,2 @@
-node3.monerodevs.org | DE - Saxony | rpcport 18089
- | p2port 18084
-node.monerodevs.org | CA - Quebec | rpcport 18089
+node1-eu.monero.love | FI - Uusimaa | rpcport 18089
  | p2port 18084

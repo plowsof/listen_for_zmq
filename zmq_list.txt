@@ -1,2 +1,6 @@
-node1-eu.monero.love | FI - Uusimaa | rpcport 18089
+mail.daline.com.cn | CN - Hubei | rpcport 18081
+ | p2port 18083
+xmr5.doggett.tech | US - Virginia | rpcport 18089
+ | p2port 18083
+p2pool.uk | GB - England | rpcport 18089
  | p2port 18084

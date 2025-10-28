@@ -1,4 +1,6 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-opennode.xmr-tw.org | FR - Hauts-de-France | 18089
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
+ | 18083
+p2pmd.xmrvsbeast.com | NL - North Holland | 18081
  | 18084

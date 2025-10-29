@@ -1,4 +1,8 @@
 p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
  | p2port 18083
+node.richfowler.net | US - Virginia | rpcport 18089
+ | p2port 18084
 p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
+ | p2port 18084
+p2pool.uk | GB - England | rpcport 18089
  | p2port 18084

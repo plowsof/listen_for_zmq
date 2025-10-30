@@ -1,8 +1,14 @@
-p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
+xmr.support | US - Washington | rpcport 18081
  | p2port 18083
-node.richfowler.net | US - Virginia | rpcport 18089
- | p2port 18084
-p2pmd.xmrvsbeast.com | NL - North Holland | rpcport 18081
- | p2port 18084
-p2pool.uk | GB - England | rpcport 18089
+mail.daline.com.cn | CN - Hubei | rpcport 18081
+ | p2port 18083
+xmr5.doggett.tech | US - Virginia | rpcport 18089
+ | p2port 18083
+hantaan.fullm00n.de | FR - Grand Est | rpcport 18089
+ | p2port 18083
+xmr1.doggett.tech | CA - Quebec | rpcport 18089
+ | p2port 18083
+monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
+ | p2port 18083
+monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
  | p2port 18084

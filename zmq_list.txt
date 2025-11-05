@@ -1,2 +1,4 @@
+xmr.support | US - Washington | rpcport 18081
+ | p2port 18083
 monero.homelinux.org | DE - Saxony | rpcport 18081
  | p2port 18084

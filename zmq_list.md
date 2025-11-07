@@ -1,8 +1,12 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-xmr1.doggett.tech | CA - Quebec | 18089
+mail.daline.com.cn | CN - Hubei | 18081
  | 18083
-monero.homelinux.org | DE - Saxony | 18081
+node1-eu.monero.love | FI - Uusimaa | 18089
  | 18084
-whytheyfight.com | US - Colorado | 18089
+xmr-pruned.p2pool.uk | GB - England | 18089
+ | 18084
+xmr-full.p2pool.uk | GB - England | 18089
+ | 18084
+compking.ddns.net | CA - Alberta | 18089
  | 18084

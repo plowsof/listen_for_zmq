@@ -1,10 +1,6 @@
-mail.daline.com.cn | CN - Hubei | rpcport 18081
+monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
  | p2port 18083
-node1-eu.monero.love | FI - Uusimaa | rpcport 18089
+monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
  | p2port 18084
-xmr-pruned.p2pool.uk | GB - England | rpcport 18089
- | p2port 18084
-xmr-full.p2pool.uk | GB - England | rpcport 18089
- | p2port 18084
-compking.ddns.net | CA - Alberta | rpcport 18089
+node.richfowler.net | US - Virginia | rpcport 18089
  | p2port 18084

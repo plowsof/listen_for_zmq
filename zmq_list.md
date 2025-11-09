@@ -1,8 +1,8 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-monero.10z.com.ar | AR - Buenos Aires F.D. | 18089
+mail.daline.com.cn | CN - Hubei | 18081
  | 18083
-monero.10z.com.ar | AR - Buenos Aires F.D. | 18089
+whytheyfight.com | US - Colorado | 18089
  | 18084
-node.richfowler.net | US - Virginia | 18089
+monero.homelinux.org | DE - Saxony | 18081
  | 18084

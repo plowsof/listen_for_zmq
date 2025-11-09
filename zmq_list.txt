@@ -1,6 +1,6 @@
-monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
+mail.daline.com.cn | CN - Hubei | rpcport 18081
  | p2port 18083
-monero.10z.com.ar | AR - Buenos Aires F.D. | rpcport 18089
+whytheyfight.com | US - Colorado | rpcport 18089
  | p2port 18084
-node.richfowler.net | US - Virginia | rpcport 18089
+monero.homelinux.org | DE - Saxony | rpcport 18081
  | p2port 18084

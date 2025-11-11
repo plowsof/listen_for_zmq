@@ -1,8 +1,0 @@
-mail.daline.com.cn | CN - Hubei | rpcport 18081
- | p2port 18083
-xmr.support | US - Washington | rpcport 18081
- | p2port 18083
-opennode.xmr-tw.org | DK - Central Jutland | rpcport 18089
- | p2port 18084
-monero.homelinux.org | DE - Saxony | rpcport 18081
- | p2port 18084

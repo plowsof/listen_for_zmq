@@ -1,2 +1,4 @@
+hantaan.fullm00n.de | FR - Grand Est | rpcport 18089
+ | p2port 18083
 mail.daline.com.cn | CN - Hubei | rpcport 18081
  | p2port 18083

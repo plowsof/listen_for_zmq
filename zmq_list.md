@@ -1,6 +1,8 @@
 Hostname | Country | RPCport | P2Pport
 --- | --- | --- | ---
-mail.daline.com.cn | CN - Hubei | 18081
+xmr.monopolymoney.eu | SE - Gävleborg | 18089
  | 18083
-opennode.xmr-tw.org | CA - Quebec | 18089
+node3.monerodevs.org | DE - Saxony | 18089
+ | 18084
+xmr-pruned.p2pool.uk | GB - England | 18089
  | 18084
